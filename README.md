@@ -25,4 +25,21 @@ pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88
 ##### E ao final de cada rodada de perguntas é exibido uma tela com o resultado.
 ![result](web/img/doc/result.png)
 
-# Manuteção
+# Manutenção
+### Estrutura do projeto
+* prolog_quiz
+    * commom
+        * handler.pl
+    * controllers
+        * default.pl
+    * models
+        * _model.pl
+        * estados.json
+        * perguntas.json
+    * web
+        * css
+        * fonts
+        * img
+        * js
+        * index.html
+    * server.pl
