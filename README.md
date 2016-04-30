@@ -29,17 +29,17 @@ pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88
 ### Estrutura do projeto
 * prolog_quiz
     * commom
-        * handler.pl
+        * **handler.pl**
     * controllers
-        * default.pl
+        * **app_controller.pl**
     * models
-        * _model.pl
+        * **app_model.pl**
         * estados.json
         * perguntas.json
-    * web
+    * **web**
         * css
         * fonts
         * img
         * js
         * index.html
-    * server.pl
+    * **server.pl**

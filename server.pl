@@ -3,7 +3,7 @@
 :- use_module(library(http/http_dispatch)).
 :- use_module(library(arouter)).
 :- use_module('common/handler').
-:- use_module('controllers/default').
+:- use_module('controllers/app_controller').
 
 % Definindo a raiz do backend e frontend
 user:file_search_path(root, 'prolog_quiz').
