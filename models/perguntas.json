@@ -1,0 +1,44 @@
+[
+    {
+        "enunciado" : "@capital é a capital de qual unidade federativa?",
+        "complemento" : "capital",
+        "resposta" : "uf",
+        "tempo" : 30,
+        "chances" : 1
+    },
+    {
+        "enunciado" : "@bandeira de qual estado é a bandeira?",
+        "complemento" : "bandeira:img",
+        "resposta" : "nome",
+        "tempo" : 60,
+        "chances" : 1,
+    },
+    {
+        "enunciado" : "Qual a capital do estado: @nome?",
+        "complemento" : "nome",
+        "resposta" : "capital",
+        "tempo" : 30,
+        "chances" : 1
+    },
+    {
+        "enunciado" : "Quantos habitantes possui o estado: @nome?",
+        "complemento" : "nome",
+        "resposta" : "habitantes",
+        "tempo" : 60,
+        "chances" : 1
+    },
+    {
+        "enunciado" : "Qual a área total do estado: @nome?",
+        "complemento" : "nome",
+        "resposta" : "area_total",
+        "tempo" : 30,
+        "chances" : 1,
+    },
+    {
+        "enunciado" : "Quantos municipios o estado: @nome possui?",
+        "complemento" : "nome",
+        "resposta" : "municipios",
+        "tempo" : 60,
+        "chances" : 1,
+    }
+]

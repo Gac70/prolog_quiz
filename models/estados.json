@@ -1,0 +1,74 @@
+[
+    {
+        "id" : "1",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "AC",
+        "nome":"Acre",
+        "capital": "Rio Branco",
+        "habitantes": "803.513",
+        "area_total": "164.123.739",
+        "municipios": "22",
+        "bandeira" : "img/band_ac.gif"
+    },
+    {
+        "id" : "2",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "AP",
+        "nome":"Amapá",
+        "capital": "Macapá",
+        "habitantes": "766.679",
+        "area_total": "142.828.520",
+        "municipios": "16",
+        "bandeira" : "img/band_ap.gif"
+    },
+    {
+        "id" : "3",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "AM",
+        "nome":"Amazonas",
+        "capital": "Manaus",
+        "habitantes": "3.938.336",
+        "area_total": "1.559.148.890",
+        "municipios": "62",
+        "bandeira" : "img/band_am.gif"
+    },
+    {
+        "id" : "4",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "BA",
+        "nome":"Bahia",
+        "capital": "Salvador",
+        "habitantes": "15.203.934",
+        "area_total": "564.733.081",
+        "municipios": "417",
+        "bandeira" : "img/band_ba.gif"
+    },
+    {
+        "id" : "5",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "CE",
+        "nome":"Ceará",
+        "capital": "Fortaleza",
+        "habitantes": "8.904.459",
+        "area_total": "148.886.308",
+        "municipios": "184",
+        "bandeira" : "img/band_ce.gif"
+    },
+    {
+        "id" : "6",
+        "@context": "http://json-ld.org/contexts/place.jsonld",
+        "@type": "estado",
+        "uf": "RR",
+        "nome":"Roraima",
+        "capital": "Boa Vista",
+        "habitantes": "505.665",
+        "area_total": "224.303.187",
+        "municipios": "15",
+        "bandeira" : "img/band_rr.gif"
+    },
+]
