@@ -36,7 +36,7 @@ pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88
         * **app_model.pl**
         * estados.json
         * perguntas.json
-    * **web**
+    * web
         * css
         * fonts
         * img
