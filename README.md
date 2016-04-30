@@ -3,8 +3,11 @@
 ###### Atividade acadêmica [IABV 2016]
 @github/marcelobns
 
-breve introdução...
-
 # Instalação
+Para a utilização deste projeto você primeiro deve instalar a versão mais recente do swi-prolog (http://www.swi-prolog.org/Download.html)
 
+Faça o download deste projeto ou clone em sua máquina :
+```
+git clone https://github.com/marcelobns/prolog_quiz.git
+```
 # Uso
