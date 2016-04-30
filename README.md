@@ -21,7 +21,7 @@ pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88
 
 # Uso
 A interface é simples e intuitiva, contendo um formulário para responder as perguntas sobre geografia do Brasil.
-[1]: web/img/doc/form.png  "Formulário com pergunta"
+![form](web/img/doc/form.png)
 E ao final de cada rodada de perguntas é exibido uma tela com o resultado.
-[2]: web/img/doc/result.png  "Resultado da rodada de perguntas"
+![result](web/img/doc/result.png) 
 # Manuteção
