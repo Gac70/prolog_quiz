@@ -20,8 +20,8 @@ $ server(88).
 pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88)
 
 # Uso
-A interface é simples e intuitiva, contendo um formulário para responder as perguntas sobre geografia do Brasil.
+#### A interface é simples e intuitiva, contendo um formulário para responder as perguntas sobre geografia do Brasil.
 ![form](web/img/doc/form.png)
-E ao final de cada rodada de perguntas é exibido uma tela com o resultado.
-![result](web/img/doc/result.png) 
+#### E ao final de cada rodada de perguntas é exibido uma tela com o resultado.
+![result](web/img/doc/result.png)
 # Manuteção
