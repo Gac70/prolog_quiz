@@ -8,7 +8,7 @@ Para a utilização deste projeto você primeiro deve instalar a versão mais re
 
 Qualquer dúvida ou problemas na instalação do swi-prolog consulte a [documentação](http://www.swi-prolog.org/pldoc/doc_for?object=manual).
 
-Então faça o download deste projeto ou clone-o em sua máquina :
+Então faça o [download](https://github.com/marcelobns/prolog_quiz/archive/master.zip) deste projeto ou clone-o em sua máquina :
 ```
 $ git clone https://github.com/marcelobns/prolog_quiz.git
 ```
@@ -17,8 +17,11 @@ Em seu terminal do prolog ou na ferramenta swipl dentro do terminal do seu siste
 $ consult('prolog_quiz/server.pl').
 $ server(88).
 ```
-pronto seu servidor está rodando em [http://localhost:88](http://localhost:88)
+pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88)
 
 # Uso
-
+A interface é simples e intuitiva, contendo um formulário para responder as perguntas sobre geografia do Brasil.
+[1]: web/img/doc/form.png  "Formulário com pergunta"
+E ao final de cada rodada de perguntas é exibido uma tela com o resultado.
+[2]: web/img/doc/result.png  "Resultado da rodada de perguntas"
 # Manuteção
