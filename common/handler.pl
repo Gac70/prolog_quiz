@@ -5,13 +5,12 @@
 :- use_module(library(http/json_convert)).
 :- use_module(library(http/http_json)).
 
-
 % Manipuladores
 server_handler(Request) :- (route(Request) ; http_dispatch(Request)).
 assets_handler(Request) :- memberchk(path(Path),Request),
 	                       http_reply_file(web_root(Path),[],Request).
 model_handler(Request) :- memberchk(path(Path),Request),
-							atom_concat('quiz/', Path, FilePath),
+							atom_concat('prolog_quiz/', Path, FilePath),
 							open(FilePath, read, Str),
 							json_read(Str, Term),
 	                       	reply_json(Term).
@@ -31,3 +30,4 @@ model_handler(Request) :- memberchk(path(Path),Request),
 
 
 %FIXME uso do root para o open model_handler/1
+%FIXME por variavel para nome do projeto ou pegar automaticamente

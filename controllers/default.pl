@@ -7,12 +7,12 @@
 :- use_module('../models/_model').
 
 default_index() :-
-    json_to_dict('quiz/models/perguntas.json', Perguntas),
-    json_to_dict('quiz/models/estados.json', Estados),
+    json_to_dict('prolog_quiz/models/perguntas.json', Perguntas),
+    json_to_dict('prolog_quiz/models/estados.json', Estados),
 
     format('Content-Type: text/html; charset=UTF-8~n~n'),
     current_output(Out),
-    st_render_file('quiz/web/index', _{
+    st_render_file('prolog_quiz/web/index', _{
             title: 'Quiz de Geografia',
             perguntas: Perguntas,
             estados: Estados
@@ -21,7 +21,7 @@ default_index() :-
 .
 
 default_answer(Id, Key, Value) :-
-    json_to_dict('quiz/models/estados.json', Estados),
+    json_to_dict('prolog_quiz/models/estados.json', Estados),
     member(Dict, Estados),
 
     atom_string(Id, Id_s), atom_string(Value, Value_s),

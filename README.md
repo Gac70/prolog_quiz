@@ -17,6 +17,8 @@ Em seu terminal do prolog ou na ferramenta swipl dentro do terminal do seu siste
 $ consult('prolog_quiz/server.pl').
 $ server(88).
 ```
-pronto seu servidor está rodando em http://localhost:88.
+pronto seu servidor está rodando em http://localhost:88/
 
 # Uso
+
+# Manuteção
