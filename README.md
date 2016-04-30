@@ -1,7 +1,7 @@
 
 ## Projeto em Prolog para auxiliar o ensino e aprendizagem de Geografia do Brasil.
 ###### Atividade acadêmica [IABV 2016]
-Marcelo Barbosa (@github/marcelobns)
+Marcelo Barbosa [@github/marcelobns](https://github.com/marcelobns)
 
 # Instalação
 Para a utilização deste projeto você primeiro deve instalar a versão mais recente do [swi-prolog](http://www.swi-prolog.org/Download.html).
