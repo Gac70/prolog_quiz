@@ -51,7 +51,7 @@ pronto! seu servidor está rodando em: [http://localhost:88](http://localhost:88
 
 Os principais arquivos utilizados no projeto são ["server.pl", "handler.pl", "app_model.pl", "app_controller.pl"].
 
-###### server.pl
+##### server.pl
 Arquivo de inicialização do servidor web e definição das rotas.
 ```
 server(Port) :- http_server(server_handler, [port(Port)]).
