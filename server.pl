@@ -13,5 +13,5 @@ user:file_search_path(web_root, 'prolog_quiz/web').
 server(Port) :- http_server(server_handler, [port(Port)]).
 
 % Rotas
-:- route_get(/, default_index()).
-:- route_get(validation/Id/Key/Value, default_answer(Id, Key, Value)).
+:- route_get(/, index()).
+:- route_get(validation/Id/Key/Value, answer(Id, Key, Value)).
