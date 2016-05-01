@@ -7,8 +7,8 @@ Marcelo Barbosa [@github/marcelobns](https://github.com/marcelobns)
 * [Instalação](https://github.com/marcelobns/prolog_quiz#instalação)
 * [Uso](https://github.com/marcelobns/prolog_quiz#uso)
 * [Manutenção](https://github.com/marcelobns/prolog_quiz#manutenção)
-* [Implementações Futuras]()
-* [Licença de Uso](prolog_quiz/license)
+* [Implementações Futuras](https://github.com/marcelobns/prolog_quiz#implementações-futuras)
+* [Licença de Uso](https://github.com/marcelobns/prolog_quiz/blob/master/license)
 
 ## Instalação
 Para a utilização deste projeto você primeiro deve instalar a versão mais recente do [swi-prolog](http://www.swi-prolog.org/Download.html).
@@ -85,10 +85,10 @@ index() :-
     )
 .
 ```
-#### Implementações Futuras
+## Implementações Futuras
 * Ajuste na manipulação dos caminhos absoluto e relativo do projeto.
 * Melhor uso do arquivo app_model.pl
 
-#### Licença de Uso
+## Licença de Uso
 GNU GENERAL PUBLIC LICENSE <br>
    Version 3, 29 June 2007
