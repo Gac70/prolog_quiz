@@ -5,10 +5,6 @@
 :- use_module('common/handler').
 :- use_module('controllers/app_controller').
 
-% Definindo a raiz do backend e frontend
-user:file_search_path(root, 'prolog_quiz').
-user:file_search_path(web_root, 'prolog_quiz/web').
-
 % Inicialização do servidor
 server(Port) :- http_server(server_handler, [port(Port)]).
 

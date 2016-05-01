@@ -5,6 +5,10 @@
 :- use_module(library(http/json_convert)).
 :- use_module(library(http/http_json)).
 
+% Definindo a raiz do backend e frontend
+user:file_search_path(root, 'prolog_quiz').
+user:file_search_path(web_root, 'prolog_quiz/web').
+
 % Manipuladores
 server_handler(Request) :- (route(Request) ; http_dispatch(Request)).
 assets_handler(Request) :- memberchk(path(Path),Request),
