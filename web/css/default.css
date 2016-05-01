@@ -181,9 +181,9 @@ a {
 	background-color: lightgray;
 	width: 100%;
 	padding: 10px;
-	opacity: 0.5;
+	opacity: 0.4;
 }
-a {
-	color: #2980b9;
+#footer a {
+	color: red;
 	text-decoration: none;
 }
