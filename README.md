@@ -1,7 +1,11 @@
 
-## Projeto em Prolog para auxiliar o ensino e aprendizagem de Geografia do Brasil (beta version).
+## Projeto em Prolog para auxiliar o ensino e aprendizagem de Geografia do Brasil.
 ###### Atividade acadêmica [IABV 2016]
 Marcelo Barbosa [@github/marcelobns](https://github.com/marcelobns)
+
+Projeto construído utilizando apenas **SWI-PROLOG** no Backend, criando um serviço **web** e fornecendo a lógica para o consumo no frontend, que está escrito em **HTML, CSS e JS**.<br>
+Os fatos estão armazenados em arquivos **JSON** e são traduzidos para **DICTS** do prolog para facilitar a interpretação lógica.
+
 
 ## Manual
 * [Instalação](https://github.com/marcelobns/prolog_quiz#instalação)
