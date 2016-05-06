@@ -12,7 +12,7 @@ Os fatos estão armazenados em arquivos **JSON** e são traduzidos para **DICTS*
 * [Uso](https://github.com/marcelobns/prolog_quiz#uso)
 * [Manutenção](https://github.com/marcelobns/prolog_quiz#manutenção)
 * [Implementações Futuras](https://github.com/marcelobns/prolog_quiz#implementações-futuras)
-* [Licença de Uso](https://github.com/marcelobns/prolog_quiz/blob/master/license)
+* [Licença de Uso](https://github.com/marcelobns/prolog_quiz/blob/master/LICENSE)
 
 ## Instalação
 Para a utilização deste projeto você primeiro deve instalar a versão mais recente do [swi-prolog](http://www.swi-prolog.org/Download.html).
