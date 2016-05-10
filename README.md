@@ -23,7 +23,13 @@ Então faça o [download](https://github.com/marcelobns/prolog_quiz/archive/mast
 ```
 $ git clone https://github.com/marcelobns/prolog_quiz.git
 ```
-Em seu terminal do prolog ou na ferramenta swipl dentro do terminal do seu sistema operacional, Selecione o arquivo principal do projeto "server.pl" e inicie o servidor web do prolog na porta que for mais conveniente :
+Em seu terminal do prolog ou na ferramenta swipl dentro do terminal do seu sistema operacional
+
+Talvez seja necessário a instalação do pacote arouter, que auxilia na criação de rotas http:
+```
+$ pack_install(arouter).
+```
+Para executar o projeto selecione o arquivo principal do projeto "server.pl" e inicie o servidor web do prolog na porta que for mais conveniente :
 ```
 $ consult('prolog_quiz/server.pl').
 $ server(88).
