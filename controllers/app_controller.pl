@@ -21,11 +21,10 @@ index() :-
 .
 
 answer(Id, Key, Value) :-
-    json_to_dict('prolog_quiz/models/estados.json', Estados),
-    member(Dict, Estados),
+    json_to_dict('prolog_quiz/models/estados.json', EstadosDict),
 
     atom_string(Id, Id_s), atom_string(Value, Value_s),
-    select_dict(_{}.put([id=Id_s, Key=Value_s]), Dict, _),
+    select_dict(_{}.put([id=Id_s, Key=Value_s]), EstadosDict, _),
 
     format('Content-Type: text/html; charset=UTF-8~n~n'),
     format('true')
